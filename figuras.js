@@ -67,3 +67,13 @@ function cuadradoArea(){
     const resultado = areaCuadrado(valor);
     document.write(resultado);
 }
+
+// triangulo Isosceles
+function triangulo_isosceles(){
+    const caja = document.getElementById("input1");
+    const caja_2 = document.getElementById("input2");
+    const valor = caja.value;
+    const valor2 = caja_2.value;
+    const resultado= Math.sqrt((valor*valor)-((valor2*valor2)/4));
+    alert(resultado);
+}
